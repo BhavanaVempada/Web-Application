@@ -1,3 +1,4 @@
+#Object Detection
 from ultralytics import YOLO
 import cv2 # type: ignore
 # Load YOLOv8 model
@@ -23,3 +24,4 @@ while True:
 # exit the loop
 cap.release()
 cv2.destroyAllWindows()
+
