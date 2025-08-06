@@ -20,6 +20,6 @@ while True:
     # Press ESC to quit
     if cv2.waitKey(1) & 0xFF == 27:
         break
-
+# exit the loop
 cap.release()
 cv2.destroyAllWindows()
