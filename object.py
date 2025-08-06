@@ -1,3 +1,4 @@
+#It detects all the objects
 #Object Detection
 from ultralytics import YOLO
 import cv2 # type: ignore
@@ -24,4 +25,5 @@ while True:
 # exit the loop
 cap.release()
 cv2.destroyAllWindows()
+
 
